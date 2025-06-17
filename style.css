@@ -1,0 +1,62 @@
+
+body {
+  background: #0f0f0f;
+  color: #00ffcc;
+  font-family: monospace;
+  padding: 2em;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.cta-button {
+  background-color: #00ffcc;
+  color: #0f0f0f;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #009988;
+}
+
+.note {
+  font-size: 0.8em;
+  color: #aaaaaa;
+  margin-top: 0.5em;
+}
+{
+/* Kali-like Terminal Loading Animation *
+#loadingBarContainer {
+  width: 100%;
+  background-color: #111;
+  padding: 10px;
+  display: none;
+  margin-top: 20px;
+}
+
+#loadingBar {
+  width: 0%;
+  height: 20px;
+  background-color: #00ff99;
+  transition: width 0.5s ease;
+  box-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99; */
+
+#loadingBar {
+  width: 100%;
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#progressBar {
+  height: 10px;
+  width: 0;
+  background-color: #00ff99;
+  transition: width 0.3s;
+}
+}
